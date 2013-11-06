@@ -36,7 +36,7 @@ namespace ReportAutomation
 		{
 			this.tpc = Service.ConnectToTfs(out selectedProject);
 			IList<string> bds = Service.GetAllBuildDefinitionsFromProject(tpc, selectedProject);
-			string uiaBD = "Axis_RPP_Test_UIA_Build";
+			string uiaBD = "Automation_Build";
 			bds.Remove(uiaBD);
 			bds.Insert(0, uiaBD);
 			comboBoxBD.DataSource = bds;
