@@ -1,0 +1,1 @@
+http://www.cnblogs.com/parry/archive/2012/10/30/ClickOnce_Winform_Deployment.html
